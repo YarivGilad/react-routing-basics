@@ -1,0 +1,15 @@
+:root {
+  /* Primary colors */
+  --color-slate-gray: slategray;
+  --color-white: white;
+  --color-papaya-whip: papayawhip;
+  --color-mint-cream: mintcream;
+  --color-light-sky-blue: lightskyblue;
+  
+  /* Background colors */
+  --color-beige: #f5f5dc;
+  --color-tan: #d2b48c;
+  
+  /* Gradient backgrounds */
+  --gradient-body: linear-gradient(to bottom, var(--color-beige) 0%, var(--color-tan) 100%);
+} 

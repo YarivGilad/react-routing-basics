@@ -1,0 +1,17 @@
+@import url(./_colors.css);
+@import url(./_reset.css);
+@import url(./_layout-utils.css);
+
+#root {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-papaya-whip);
+    background: -moz-linear-gradient(top, var(--color-beige) 0%, var(--color-tan) 100%);
+    background: -webkit-linear-gradient(top, var(--color-beige) 0%, var(--color-tan) 100%); 
+    background: var(--gradient-body);
+}
